@@ -1,0 +1,22 @@
+{
+  "name": "mllc",
+  "version": "0.0.0",
+  "description": "Max line length checker",
+  "main": "index.js",
+  "bin": "cli.js",
+  "dependencies": {
+    "glob": "~3.1.19",
+    "optimist": "~0.3.5",
+    "split": "~0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": "git://github.com/tellnes/mllc.git",
+  "keywords": [],
+  "author": {
+    "name": "Christian Tellnes",
+    "email": "christian@tellnes.no",
+    "url": "http://christian.tellnes.com"
+  },
+  "license": "MIT"
+}
