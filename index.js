@@ -4,6 +4,7 @@ var glob = require('glob')
   , path = require('path')
   , EventEmitter = require('events').EventEmitter
   , util = require('util')
+  , EOL = require('os').EOL
 
 util.inherits(MLLC, EventEmitter)
 module.exports = MLLC
@@ -63,7 +64,7 @@ function MLLC() {
 
       fs.createReadStream(filepath)
       .on('error', next)
-      .pipe(split())
+      .pipe(split(EOL))
       .on('data', function (lineStr) {
         linenumber++
         if (lineStr.length > options.length) {
