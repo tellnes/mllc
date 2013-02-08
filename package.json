@@ -1,6 +1,6 @@
 {
   "name": "mllc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Max line length checker",
   "main": "index.js",
   "bin": "cli.js",
