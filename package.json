@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": "cli.js",
   "dependencies": {
-    "glob": "~3.1.19",
+    "glob": "~3.2.1",
     "optimist": "~0.3.5",
     "split": "~0.2.0"
   },
