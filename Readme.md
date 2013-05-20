@@ -1,5 +1,7 @@
 # mllc
 
+[![Dependency Status](https://gemnasium.com/tellnes/mllc.png)](https://gemnasium.com/tellnes/mllc)
+
 max line length checker
 
 ## CLI Usage
